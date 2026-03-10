@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard - Shine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">Shine Admin</h2>
+        </div>
+        <div class="user-actions">
+            <a href="index.html" class="user-icon"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+    </div>
+
+    <div class="admin-container">
+        <div class="admin-sidebar">
+            <ul>
+                <li class="active"><a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-box-open"></i> Products</a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i> Orders</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> Customers</a></li>
+            </ul>
+        </div>
+
+        <div class="admin-content">
+            <h2>Dashboard Overview</h2>
+            
+            <div class="admin-stats">
+                <div class="stat-card">
+                    <i class="fas fa-shopping-bag"></i>
+                    <h3>Today's Orders</h3>
+                    <p>24</p>
+                </div>
+                
+                <div class="stat-card">
+                    <i class="fas fa-wallet"></i>
+                    <h3>Total Revenue</h3>
+                    <p>5,432 SAR</p>
+                </div>
+                
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3>New Customers</h3>
+                    <p>8</p>
+                </div>
+            </div>
+
+            <div class="recent-section">
+                <h3>Recent Orders</h3>
+                <div class="orders-list">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>SHINE ADMIN</h3>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
